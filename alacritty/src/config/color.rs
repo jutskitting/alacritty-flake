@@ -54,7 +54,7 @@ pub struct HintStartColors {
 impl Default for HintStartColors {
     fn default() -> Self {
         Self {
-            foreground: CellRgb::Rgb(Rgb::new(0x00, 0x00, 0x00)),
+            foreground: CellRgb::Rgb(Rgb::new(0xaa, 0x00, 0x00)),
             background: CellRgb::Rgb(Rgb::new(0xf4, 0xbf, 0x75)),
         }
     }
@@ -69,7 +69,7 @@ pub struct HintEndColors {
 impl Default for HintEndColors {
     fn default() -> Self {
         Self {
-            foreground: CellRgb::Rgb(Rgb::new(0x00, 0x00, 0x00)),
+            foreground: CellRgb::Rgb(Rgb::new(0xaa, 0x00, 0x00)),
             background: CellRgb::Rgb(Rgb::new(0xac, 0x42, 0x42)),
         }
     }
@@ -231,7 +231,7 @@ impl Default for BrightColors {
         // to make them look "nicer". Yellow color was generated the same way, however the first
         // srgb representable color was picked.
         BrightColors {
-            black: Rgb::new(0x00, 0x00, 0x00),
+            black: Rgb::new(0xaa, 0x00, 0x00),
             red: Rgb::new(0xc5, 0x55, 0x55),
             green: Rgb::new(0xaa, 0xc4, 0x74),
             yellow: Rgb::new(0xfe, 0xca, 0x88),
